@@ -1,0 +1,18 @@
+x=[]
+for i in range(65,91):
+    x+=[" ",chr(i),]
+print(x)
+
+
+for e in range(0,len(x)+1):
+    if e in range(0,len(x)-1):
+        x[e]=x[e+1]
+print(x)
+z=[]
+y=[]
+for s in x:
+    y=x.replace("Z", "A")
+    z=y.replace(" ","-")
+    z.append(z)
+
+print(z)
