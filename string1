@@ -1,0 +1,7 @@
+np=str(input("dati numele si prenumele="))
+pr=str(input("ce profesie doresti sa ai="))
+print("Cum te numesti?")
+print(np)
+print("Ce iti doresti sa devii in viitor?")
+print(pr)
+print("Te numesti",np,"si vrei sa devii",pr)
